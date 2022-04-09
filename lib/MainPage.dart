@@ -1,9 +1,12 @@
 // ignore_for_file: file_names
 
+import 'package:coffe/OrderPage/OrderScreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'HomePage.dart';
+import 'HomePage/Carousel.dart';
+import 'HomePage/HomePage.dart';
+import 'ProfilePage.dart';
 
 class MainPage extends StatefulWidget {
   @override
@@ -23,10 +26,10 @@ class MyWidget extends State {
   int index = 0;
   List<Widget> Screens = [
     Scaffold(body: HomePage()),
+    TabBarDemo(),
+    Carousel(),
     Scaffold(),
-    Scaffold(),
-    Scaffold(),
-    Scaffold(),
+    ProfilePage(),
   ];
   @override
   Widget build(BuildContext context) {
