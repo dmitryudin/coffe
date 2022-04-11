@@ -1,14 +1,14 @@
 import 'package:coffe/controllers/BasicObject.dart';
+import 'package:coffe/controllers/Product.dart';
 import 'package:flutter/cupertino.dart';
 
-class Product with ChangeNotifier implements BasicObject {
-  int id = -1;
+class CoffeHouse with ChangeNotifier implements BasicObject {
   String name = '';
   String description = '';
-  String composition = '';
-  double price = 0.0;
-  int quantity = 0;
-
+  String address = '';
+  String email = '';
+  String phone = '';
+  List<Product> products = [];
   @override
   bool flagOfBusy = false;
 
