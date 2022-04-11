@@ -37,6 +37,9 @@ dependencies:
   cached_network_image: ^3.2.0
   provider: 
   carousel_slider: 
+  hive_flutter: 
+  hive: 
+  shared_preferences: ^2.0.13
 
 dev_dependencies:
   flutter_test:
