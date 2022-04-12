@@ -1,7 +1,7 @@
 import 'package:coffe/controllers/BasicObject.dart';
 import 'package:flutter/cupertino.dart';
 
-class Product with ChangeNotifier implements BasicObject {
+class Coffe with ChangeNotifier implements BasicObject {
   int id = -1;
   String name = '';
   String description = '';
